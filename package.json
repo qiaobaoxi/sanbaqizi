@@ -13,8 +13,10 @@
   "dependencies": {
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
+    "v-distpicker": "^1.0.16",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-swipe": "^2.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
