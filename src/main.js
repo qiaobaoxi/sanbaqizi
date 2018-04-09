@@ -4,7 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Distpicker from 'v-distpicker'
+import { Datetime } from 'vue-datetime'
+import 'vue-datetime/dist/vue-datetime.css'
 Vue.component('v-distpicker', Distpicker)
+Vue.component('datetime', Datetime)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
